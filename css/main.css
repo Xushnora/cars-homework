@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', 'Arial', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-content {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.parent-cars {
+    display: flex;
+    justify-content: center;
+}
+
+.all-child {
+    border: 2px solid;
+    border-color: transparent;
+    width: 307px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 35px 48px;
+}
+
+.child-sedans {
+    background-color: #E28625;
+}
+
+.child-suvs {
+    background-color: #006971;
+}
+
+.child-luxury {
+    background-color: #004140;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+
+.title::before {
+    display: block;
+    content: '';
+    width: 64px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+.sedans-title {
+    background-image: url('../images/icon-cars.svg');
+    background-repeat: no-repeat;
+}
+
+.suvs-title {
+    background-image: url('../images/icon-suvs.svg');
+    background-repeat: no-repeat;
+}
+
+.luxury-title {
+    background-image: url('../images/icon-luxury.svg');
+    background-repeat: no-repeat;
+}
+
+.text {
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+.btn {
+    padding: 7px 22px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    margin-bottom: 48px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn:hover {
+    color: #f13f28;
+    border-color: #fc442c;
+    background-color: transparent;
+}
+
+.first-btn {
+    color: #E28625;
+}
+
+.second-btn {
+    color: #006971;
+}
+
+.third-btn {
+    color: #004140;
+}
