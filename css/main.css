@@ -34,7 +34,7 @@ body {
 }
 
 .child-sedans {
-    background-color: #E28625;
+    background-color: #e28625;
 }
 
 .child-suvs {
@@ -51,7 +51,7 @@ body {
     font-size: 40px;
     line-height: 48px;
     text-transform: uppercase;
-    color: #F2F2F2;
+    color: #f2f2f2;
     margin-bottom: 25px;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 .first-btn {
-    color: #E28625;
+    color: #e28625;
 }
 
 .second-btn {
